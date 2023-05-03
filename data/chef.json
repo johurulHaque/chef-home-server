@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Chef Li",
+      "image": "https://example.com/chef-li-image.jpg",
+      "experience": 15,
+      "numRecipes": 50,
+      "numLikes": 10000,
+      "bio": "Chef Li is a master of Sichuan cuisine, known for his bold flavors and use of Sichuan peppercorns. He has been cooking for over 15 years and has won numerous awards for his culinary skills."
+    },
+    {
+      "id": 2,
+      "name": "Chef Zhang",
+      "image": "https://example.com/chef-zhang-image.jpg",
+      "experience": 10,
+      "numRecipes": 30,
+      "numLikes": 5000,
+      "bio": "Chef Zhang specializes in Cantonese cuisine, and is especially skilled in cooking seafood. He has been cooking for over 10 years and has worked at some of the top restaurants in Shanghai."
+    },
+    {
+      "id": 3,
+      "name": "Chef Chen",
+      "image": "https://example.com/chef-chen-image.jpg",
+      "experience": 8,
+      "numRecipes": 20,
+      "numLikes": 3000,
+      "bio": "Chef Chen is a master of Fujian cuisine, and is known for his skill in creating delicate and flavorful dishes. He has been cooking for over 8 years and has won several awards for his culinary creations."
+    },
+    {
+      "id": 4,
+      "name": "Chef Wang",
+      "image": "https://example.com/chef-wang-image.jpg",
+      "experience": 12,
+      "numRecipes": 40,
+      "numLikes": 8000,
+      "bio": "Chef Wang is an expert in Hunan cuisine, and is known for his use of spicy and sour flavors. He has been cooking for over 12 years and has worked at some of the top restaurants in Beijing."
+    },
+    {
+      "id": 5,
+      "name": "Chef Liu",
+      "image": "https://example.com/chef-liu-image.jpg",
+      "experience": 7,
+      "numRecipes": 15,
+      "numLikes": 2000,
+      "bio": "Chef Liu is a master of Jiangsu cuisine, and is known for his skill in creating dishes that balance sweet and savory flavors. He has been cooking for over 7 years and has won several awards for his culinary creations."
+    },
+    {
+      "id": 6,
+      "name": "Chef Yang",
+      "image": "https://example.com/chef-yang-image.jpg",
+      "experience": 5,
+      "numRecipes": 10,
+      "numLikes": 1000,
+      "bio": "Chef Yang specializes in Shandong cuisine, and is known for his skill in creating hearty and flavorful dishes. He has been cooking for over 5 years and has worked at some of the top restaurants in Guangzhou."
+    }
+  ]
+  
