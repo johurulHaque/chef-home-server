@@ -6,11 +6,19 @@ const cors = require('cors')
 
 app.use(cors())
 
-const categories = require('./data/chef.json')
-// const news = require('./data/news.json');
+const chefs = require('./data/chef.json')
 
 app.get('/chef', (req, res) => {
-  res.send(categories)
+  res.send(chefs)
+})
+// app.get('/chef/:id', (req, res) => {
+//   res.send(categories)
+// })
+app.get('/chef/:id', (req, res) => {
+  const id = req.params.id; 
+  // console.log(id)
+  const selectedChef = chefs.find(n => n.id == id);
+  res.send(selectedChef)
 })
 
 app.listen(port, () => {

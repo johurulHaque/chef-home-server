@@ -6,7 +6,67 @@
       "experience": 15,
       "numRecipes": 50,
       "numLikes": 10000,
-      "bio": "Chef Li is a master of Sichuan cuisine, known for his bold flavors and use of Sichuan peppercorns. He has been cooking for over 15 years and has won numerous awards for his culinary skills."
+      "bio": "Chef Li is a master of Sichuan cuisine, known for his bold flavors and use of Sichuan peppercorns. He has been cooking for over 15 years and has won numerous awards for his culinary skills.",
+      "recipe" :[
+        {
+        "name": "Kung Pao Chicken",
+        "ingredients": [
+          "boneless chicken breast",
+          "dried red chilies",
+          "peanuts",
+          "scallions",
+          "soy sauce",
+          "vinegar",
+          "cornstarch",
+          "oil",
+          "garlic",
+          "ginger",
+          "sugar"
+        ],
+        "cooking_method": "1. Marinate chicken in soy sauce, vinegar, and cornstarch. 2. Fry chicken until crispy. 3. Stir fry garlic, ginger, and dried red chilies. 4. Add peanuts and scallions. 5. Add chicken and sugar. 6. Serve hot.",
+        "rating": 4.5,
+        "image": "kung-pao-chicken.jpg",
+        "chef_id": 1
+      },
+      {
+        "name": "Hot and Sour Soup",
+        "ingredients": [
+          "pork tenderloin",
+          "dried shiitake mushrooms",
+          "tofu",
+          "bamboo shoots",
+          "black fungus",
+          "cornstarch",
+          "white pepper",
+          "eggs",
+          "vinegar",
+          "soy sauce",
+          "chicken broth"
+        ],
+        "cooking_method": "1. Soak dried mushrooms and black fungus in hot water. 2. Stir fry pork, mushrooms, and fungus. 3. Add chicken broth and bring to a boil. 4. Add tofu, bamboo shoots, and white pepper. 5. Thicken with cornstarch and beaten eggs. 6. Add vinegar and soy sauce. 7. Serve hot.",
+        "rating": 4.2,
+        "image": "hot-and-sour-soup.jpg",
+        "chef_id": 2
+      },
+      {
+        "name": "Steamed Dumplings",
+        "ingredients": [
+          "ground pork",
+          "napa cabbage",
+          "ginger",
+          "green onions",
+          "soy sauce",
+          "sesame oil",
+          "rice wine",
+          "dumpling wrappers"
+        ],
+        "cooking_method": "1. Mix ground pork, chopped cabbage, ginger, onions, soy sauce, sesame oil, and rice wine. 2. Place filling on dumpling wrapper and seal. 3. Steam dumplings for 8-10 minutes. 4. Serve hot with dipping sauce.",
+        "rating": 4.7,
+        "image": "steamed-dumplings.jpg",
+        "chef_id": 3
+      }
+
+    ]
     },
     {
       "id": 2,
