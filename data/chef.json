@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Chef Li",
-      "image": "https://example.com/chef-li-image.jpg",
+      "image": "https://i.ibb.co/tCtjfZT/chef7.jpg",
       "experience": 15,
       "numRecipes": 50,
       "numLikes": 10000,
@@ -25,7 +25,7 @@
         ],
         "cooking_method": "1. Marinate chicken in soy sauce, vinegar, and cornstarch. 2. Fry chicken until crispy. 3. Stir fry garlic, ginger, and dried red chilies. 4. Add peanuts and scallions. 5. Add chicken and sugar. 6. Serve hot.",
         "rating": 4.5,
-        "image": "kung-pao-chicken.jpg",
+        "image": "https://i.ibb.co/6DBbwp9/home.jpg",
         "chef_id": 1
       },
       {
@@ -45,8 +45,8 @@
         ],
         "cooking_method": "1. Soak dried mushrooms and black fungus in hot water. 2. Stir fry pork, mushrooms, and fungus. 3. Add chicken broth and bring to a boil. 4. Add tofu, bamboo shoots, and white pepper. 5. Thicken with cornstarch and beaten eggs. 6. Add vinegar and soy sauce. 7. Serve hot.",
         "rating": 4.2,
-        "image": "hot-and-sour-soup.jpg",
-        "chef_id": 2
+        "image": "https://i.ibb.co/S0BSX6w/food7.jpg",
+        "chef_id": 1
       },
       {
         "name": "Steamed Dumplings",
@@ -62,56 +62,353 @@
         ],
         "cooking_method": "1. Mix ground pork, chopped cabbage, ginger, onions, soy sauce, sesame oil, and rice wine. 2. Place filling on dumpling wrapper and seal. 3. Steam dumplings for 8-10 minutes. 4. Serve hot with dipping sauce.",
         "rating": 4.7,
-        "image": "steamed-dumplings.jpg",
-        "chef_id": 3
+        "image": "https://i.ibb.co/5M4HnCv/food6.jpg",
+        "chef_id": 1
       }
-
     ]
     },
     {
       "id": 2,
       "name": "Chef Zhang",
-      "image": "https://example.com/chef-zhang-image.jpg",
+      "image": "https://i.ibb.co/5B74QXb/chef5.jpg",
       "experience": 10,
       "numRecipes": 30,
       "numLikes": 5000,
-      "bio": "Chef Zhang specializes in Cantonese cuisine, and is especially skilled in cooking seafood. He has been cooking for over 10 years and has worked at some of the top restaurants in Shanghai."
+      "bio": "Chef Zhang specializes in Cantonese cuisine, and is especially skilled in cooking seafood. He has been cooking for over 10 years and has worked at some of the top restaurants in Shanghai.",
+      "recipe" :[
+        {
+          "name": "Moo Shu Pork",
+          "ingredients": [
+            "pork tenderloin",
+            "shiitake mushrooms",
+            "wood ear mushrooms",
+            "cabbage",
+            "carrots",
+            "scallions",
+            "soy sauce",
+            "sesame oil",
+            "hoisin sauce",
+            "pancakes"
+          ],
+          "cooking_method": "1. Stir fry pork, mushrooms, and cabbage. 2. Add shredded carrots and scallions. 3. Season with soy sauce and sesame oil. 4. Add hoisin sauce and stir well. 5. Serve with pancakes.",
+          "rating": 4.3,
+          "image": "https://i.ibb.co/48sxPPG/food5.jpg",
+          "chef_id": 4
+        },
+        {
+            "name": "Mapo Tofu",
+            "ingredients": [
+              "firm tofu",
+              "ground pork",
+              "chili bean paste",
+              "doubanjiang",
+              "scallions",
+              "garlic",
+              "ginger",
+              "soy sauce",
+              "chicken stock",
+              "cornstarch",
+              "oil"
+            ],
+            "cooking_method": "1. Fry ground pork with scallions, garlic, and ginger. 2. Add chili bean paste and doubanjiang. 3. Add chicken stock and bring to a boil. 4. Add cubed tofu and simmer. 5. Thicken with cornstarch slurry. 6. Serve hot.",
+            "rating": 4.5,
+            "image": "https://i.ibb.co/PzCNyN8/food4.jpg",
+            "chef_id": 5
+          }, 
+          {
+            "name": "Egg Drop Soup",
+            "ingredients": [
+              "chicken broth",
+              "eggs",
+              "cornstarch",
+              "ginger",
+              "scallions",
+              "soy sauce"
+            ],
+            "cooking_method": "1. Bring chicken broth to a boil. 2. Beat eggs and slowly pour into broth. 3. Thicken with cornstarch slurry. 4. Add ginger and scallions. 5. Season with soy sauce. 6. Serve hot.",
+            "rating": 4.2,
+            "image": "https://i.ibb.co/cy28f7H/food3.jpg",
+            "chef_id": 6
+          }
+      ]
     },
     {
       "id": 3,
       "name": "Chef Chen",
-      "image": "https://example.com/chef-chen-image.jpg",
+      "image": "https://i.ibb.co/565n7kq/chef4.jpg",
       "experience": 8,
       "numRecipes": 20,
       "numLikes": 3000,
-      "bio": "Chef Chen is a master of Fujian cuisine, and is known for his skill in creating delicate and flavorful dishes. He has been cooking for over 8 years and has won several awards for his culinary creations."
+      "bio": "Chef Chen is a master of Fujian cuisine, and is known for his skill in creating delicate and flavorful dishes. He has been cooking for over 8 years and has won several awards for his culinary creations.",
+      "recipe" :[
+        
+      {
+        "name": "Kung Pao Shrimp",
+        "ingredients": [
+          "shrimp",
+          "dried red chilies",
+          "peanuts",
+          "scallions",
+          "soy sauce",
+          "vinegar",
+          "cornstarch",
+          "oil",
+          "garlic",
+          "ginger",
+          "sugar"
+        ],
+        "cooking_method": "1. Marinate shrimp in soy sauce, vinegar, and cornstarch. 2. Fry shrimp until crispy. 3. Stir fry garlic, ginger, and dried red chilies. 4. Add peanuts and scallions. 5. Add shrimp and sugar. 6. Serve hot.",
+        "rating": 4.7,
+        "image": "https://i.ibb.co/QQzgqDc/food2.jpg",
+        "chef_id": 7
+      },
+
+
+      {
+        "name": "Beef and Broccoli Stir Fry",
+        "ingredients": [
+          "beef sirloin",
+          "broccoli",
+          "soy sauce",
+          "oyster sauce",
+          "garlic",
+          "ginger",
+          "cornstarch",
+          "oil",
+          "water"
+        ],
+        "cooking_method": "1. Marinate beef in soy sauce, oyster sauce, and cornstarch. 2. Stir fry beef until browned. 3. Remove beef and stir fry broccoli. 4. Add garlic and ginger. 5. Add water and cover to steam. 6. Add beef and serve hot.",
+        "rating": 4.4,
+        "image": "https://i.ibb.co/VBbtKGX/food1.jpg",
+        "chef_id": 8
+      },
+
+      {
+        "name": "Kung Pao Chicken",
+        "ingredients": [
+          "boneless chicken breast",
+          "dried red chilies",
+          "peanuts",
+          "scallions",
+          "soy sauce",
+          "vinegar",
+          "cornstarch",
+          "oil",
+          "garlic",
+          "ginger",
+          "sugar"
+        ],
+        "cooking_method": "1. Marinate chicken in soy sauce, vinegar, and cornstarch. 2. Fry chicken until crispy. 3. Stir fry garlic, ginger, and dried red chilies. 4. Add peanuts and scallions. 5. Add chicken and sugar. 6. Serve hot.",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/6DBbwp9/home.jpg",
+        "chef_id": 1
+      }
+
+      ]
     },
     {
       "id": 4,
       "name": "Chef Wang",
-      "image": "https://example.com/chef-wang-image.jpg",
+      "image": "https://i.ibb.co/H7ZPRg9/chef3.jpg",
       "experience": 12,
       "numRecipes": 40,
       "numLikes": 8000,
-      "bio": "Chef Wang is an expert in Hunan cuisine, and is known for his use of spicy and sour flavors. He has been cooking for over 12 years and has worked at some of the top restaurants in Beijing."
+      "bio": "Chef Wang is an expert in Hunan cuisine, and is known for his use of spicy and sour flavors. He has been cooking for over 12 years and has worked at some of the top restaurants in Beijing.",
+      "recipe" :[
+         {
+      "name": "Steamed Dumplings",
+      "ingredients": [
+        "ground pork",
+        "napa cabbage",
+        "ginger",
+        "green onions",
+        "soy sauce",
+        "sesame oil",
+        "rice wine",
+        "dumpling wrappers"
+      ],
+      "cooking_method": "1. Mix ground pork, chopped cabbage, ginger, onions, soy sauce, sesame oil, and rice wine. 2. Place filling on dumpling wrapper and seal. 3. Steam dumplings for 8-10 minutes. 4. Serve hot with dipping sauce.",
+      "rating": 4.7,
+      "image": "https://i.ibb.co/5M4HnCv/food6.jpg",
+      "chef_id": 3
+    },
+
+
+    {
+      "name": "Moo Shu Pork",
+      "ingredients": [
+        "pork tenderloin",
+        "shiitake mushrooms",
+        "wood ear mushrooms",
+        "cabbage",
+        "carrots",
+        "scallions",
+        "soy sauce",
+        "sesame oil",
+        "hoisin sauce",
+        "pancakes"
+      ],
+      "cooking_method": "1. Stir fry pork, mushrooms, and cabbage. 2. Add shredded carrots and scallions. 3. Season with soy sauce and sesame oil. 4. Add hoisin sauce and stir well. 5. Serve with pancakes.",
+      "rating": 4.3,
+      "image": "https://i.ibb.co/48sxPPG/food5.jpg",
+      "chef_id": 4
+    },
+
+
+    {
+        "name": "Mapo Tofu",
+        "ingredients": [
+          "firm tofu",
+          "ground pork",
+          "chili bean paste",
+          "doubanjiang",
+          "scallions",
+          "garlic",
+          "ginger",
+          "soy sauce",
+          "chicken stock",
+          "cornstarch",
+          "oil"
+        ],
+        "cooking_method": "1. Fry ground pork with scallions, garlic, and ginger. 2. Add chili bean paste and doubanjiang. 3. Add chicken stock and bring to a boil. 4. Add cubed tofu and simmer. 5. Thicken with cornstarch slurry. 6. Serve hot.",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/PzCNyN8/food4.jpg",
+        "chef_id": 5
+      }
+
+      ]
     },
     {
       "id": 5,
       "name": "Chef Liu",
-      "image": "https://example.com/chef-liu-mage.jpg",
+      "image": "https://i.ibb.co/Ks4kGXX/chef2.jpg",
       "experience": 7,
       "numRecipes": 15,
       "numLikes": 2000,
-      "bio": "Chef Liu is a master of Jiangsu cuisine, and is known for his skill in creating dishes that balance sweet and savory flavors. He has been cooking for over 7 years and has won several awards for his culinary creations."
+      "bio": "Chef Liu is a master of Jiangsu cuisine, and is known for his skill in creating dishes that balance sweet and savory flavors. He has been cooking for over 7 years and has won several awards for his culinary creations.",
+      "recipe" :[
+        {
+          "name": "Egg Drop Soup",
+          "ingredients": [
+            "chicken broth",
+            "eggs",
+            "cornstarch",
+            "ginger",
+            "scallions",
+            "soy sauce"
+          ],
+          "cooking_method": "1. Bring chicken broth to a boil. 2. Beat eggs and slowly pour into broth. 3. Thicken with cornstarch slurry. 4. Add ginger and scallions. 5. Season with soy sauce. 6. Serve hot.",
+          "rating": 4.2,
+          "image": "https://i.ibb.co/cy28f7H/food3.jpg",
+          "chef_id": 6
+        },
+  
+  
+        {
+          "name": "Kung Pao Shrimp",
+          "ingredients": [
+            "shrimp",
+            "dried red chilies",
+            "peanuts",
+            "scallions",
+            "soy sauce",
+            "vinegar",
+            "cornstarch",
+            "oil",
+            "garlic",
+            "ginger",
+            "sugar"
+          ],
+          "cooking_method": "1. Marinate shrimp in soy sauce, vinegar, and cornstarch. 2. Fry shrimp until crispy. 3. Stir fry garlic, ginger, and dried red chilies. 4. Add peanuts and scallions. 5. Add shrimp and sugar. 6. Serve hot.",
+          "rating": 4.7,
+          "image": "https://i.ibb.co/QQzgqDc/food2.jpg",
+          "chef_id": 7
+        },
+  
+  
+        {
+          "name": "Beef and Broccoli Stir Fry",
+          "ingredients": [
+            "beef sirloin",
+            "broccoli",
+            "soy sauce",
+            "oyster sauce",
+            "garlic",
+            "ginger",
+            "cornstarch",
+            "oil",
+            "water"
+          ],
+          "cooking_method": "1. Marinate beef in soy sauce, oyster sauce, and cornstarch. 2. Stir fry beef until browned. 3. Remove beef and stir fry broccoli. 4. Add garlic and ginger. 5. Add water and cover to steam. 6. Add beef and serve hot.",
+          "rating": 4.4,
+          "image": "https://i.ibb.co/VBbtKGX/food1.jpg",
+          "chef_id": 8
+        }
+
+      ]
     },
     {
       "id": 6,
       "name": "Chef Yang",
-      "image": "https://example.com/chef-yang-image.jpg",
+      "image": "https://i.ibb.co/NKBKgxb/chef1.jpg",
       "experience": 5,
       "numRecipes": 10,
       "numLikes": 1000,
-      "bio": "Chef Yang specializes in Shandong cuisine, and is known for his skill in creating hearty and flavorful dishes. He has been cooking for over 5 years and has worked at some of the top restaurants in Guangzhou."
+      "bio": "Chef Yang specializes in Shandong cuisine, and is known for his skill in creating hearty and flavorful dishes. He has been cooking for over 5 years and has worked at some of the top restaurants in Guangzhou.",
+      "recipe" :[
+        
+        {
+          "name": "Steamed Dumplings",
+          "ingredients": [
+            "ground pork",
+            "napa cabbage",
+            "ginger",
+            "green onions",
+            "soy sauce",
+            "sesame oil",
+            "rice wine",
+            "dumpling wrappers"
+          ],
+          "cooking_method": "1. Mix ground pork, chopped cabbage, ginger, onions, soy sauce, sesame oil, and rice wine. 2. Place filling on dumpling wrapper and seal. 3. Steam dumplings for 8-10 minutes. 4. Serve hot with dipping sauce.",
+          "rating": 4.7,
+          "image": "https://i.ibb.co/5M4HnCv/food6.jpg",
+          "chef_id": 3
+        },
+        {
+          "name": "Egg Drop Soup",
+          "ingredients": [
+            "chicken broth",
+            "eggs",
+            "cornstarch",
+            "ginger",
+            "scallions",
+            "soy sauce"
+          ],
+          "cooking_method": "1. Bring chicken broth to a boil. 2. Beat eggs and slowly pour into broth. 3. Thicken with cornstarch slurry. 4. Add ginger and scallions. 5. Season with soy sauce. 6. Serve hot.",
+          "rating": 4.2,
+          "image": "https://i.ibb.co/cy28f7H/food3.jpg",
+          "chef_id": 6
+        },
+
+        {
+          "name": "Beef and Broccoli Stir Fry",
+          "ingredients": [
+            "beef sirloin",
+            "broccoli",
+            "soy sauce",
+            "oyster sauce",
+            "garlic",
+            "ginger",
+            "cornstarch",
+            "oil",
+            "water"
+          ],
+          "cooking_method": "1. Marinate beef in soy sauce, oyster sauce, and cornstarch. 2. Stir fry beef until browned. 3. Remove beef and stir fry broccoli. 4. Add garlic and ginger. 5. Add water and cover to steam. 6. Add beef and serve hot.",
+          "rating": 4.4,
+          "image": "https://i.ibb.co/VBbtKGX/food1.jpg",
+          "chef_id": 8
+        }  
+      ]
     }
   ]
   
